@@ -1,0 +1,48 @@
+.user-info {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.user-info-list {
+  display: ruby;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-info-item {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 16px;
+  color: #000000;
+  cursor: pointer;
+}
+
+.user-info-item i {
+  margin-right: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #2bb9f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.user-info-item:hover > i {
+  background-color: #000000;
+}
+
+@media screen and (max-width: 500px) {
+  .user-info {
+    right: 10px;
+  }
+}
