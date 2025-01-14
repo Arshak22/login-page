@@ -1,0 +1,142 @@
+.second-step {
+  padding-top: 7em;
+}
+
+.add-info-section h2 {
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.lottie-passport {
+  width: 500px;
+}
+
+.add-info-section {
+  display: grid;
+  justify-content: center;
+  width: 60%;
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 10px;
+  border: 4px solid #00ebff;
+}
+
+.add-info-input-section {
+  display: table-cell;
+}
+
+.add-info-input-section label {
+  text-align: left;
+  color: #000;
+  letter-spacing: 1px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.add-info-input-section input,
+.add-info-input-section select {
+  width: 95%;
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #000;
+  border: 3px solid #2bb9f7;
+}
+
+.add-info-input-section select {
+  padding: 7px 10px;
+}
+
+.passport-upload-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.passport-upload-section div {
+  margin: 0;
+}
+
+.passport-upload-section button {
+  width: 100%;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  background-color: #00a9e4;
+  color: #fff;
+}
+
+.upload-button-success {
+  background-color: #38b200 !important;
+}
+
+.passport-upload-section button label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.passport-upload-section button i {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.send-personal-data-btn {
+  width: 200px;
+  padding: 20px 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.send-personal-data-btn:hover {
+  background-color: #00a9e4;
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1800px) {
+  .second-step {
+    padding-top: 18em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .second-step {
+    padding-top: 15em;
+  }
+  .add-info-section {
+    width: 95%;
+    display: block;
+  }
+  .add-info-section h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .lottie-passport {
+    width: 100%;
+  }
+  .add-info-input-section {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .passport-upload-section {
+    display: block;
+  }
+  .passport-upload-section button {
+    margin-top: 20px;
+  }
+  .send-personal-data-btn {
+    width: 100%;
+  }
+}

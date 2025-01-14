@@ -133,7 +133,7 @@
 }
 
 #generic_price_table .generic_content .generic_feature_list ul li {
-  color: #a7a7a7;
+  color: #000000;
 }
 
 #generic_price_table .generic_content .generic_feature_list ul li span {
@@ -145,7 +145,7 @@
 }
 
 #generic_price_table .generic_content .generic_price_btn a {
-  border: 1px solid #2bb9f7;
+  border: 2px solid #2bb9f7;
   color: #2bb9f7;
 }
 
@@ -567,6 +567,28 @@
   color: #666;
   margin: 0;
   padding: 0 0 50px 0;
+}
+
+.steps-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 25px;
+}
+
+.steps-buttons button {
+  background-color: rgb(0, 0, 0);
+  color: #ffff;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+button[disabled] {
+  opacity: 0.4;
 }
 
 @media screen and (max-width: 1920px) and (min-width: 1800px) {

@@ -1,9 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import './style.css';
 
+import StepsProgressBar from '../StepsProgressBar';
+
 import UserInfo from '../UserInfo';
 
 export default function FirstStep() {
+  const [currentStep, setCurrentStep] = useState(0);
+
+  const steps = ['Step 1', 'Step 2', 'Step 3', 'Step 4'];
+
   useEffect(() => {
     document.title = 'Step One';
   }, []);
@@ -133,6 +139,26 @@ export default function FirstStep() {
             </div>
           </div>
         </section>
+      </div>
+
+      <div style={{ padding: '20px' }}>
+        <StepsProgressBar steps={steps} currentStep={currentStep} />
+        <div className='steps-buttons'>
+          <button
+            onClick={() => setCurrentStep((prev) => Math.max(prev - 1, 0))}
+            disabled={currentStep === 0}
+          >
+            Նախորդ
+          </button>
+          <button
+            onClick={() =>
+              setCurrentStep((prev) => Math.min(prev + 1, steps.length - 1))
+            }
+            disabled={currentStep === steps.length - 1}
+          >
+            Հաջորդ
+          </button>
+        </div>
       </div>
     </div>
   );

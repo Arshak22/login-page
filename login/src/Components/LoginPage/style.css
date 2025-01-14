@@ -85,8 +85,10 @@
 
 .error-message {
   color: red;
+  text-align: center;
   font-weight: 600;
   font-size: 18px;
+  margin-top: 10px !important;
 }
 
 #sign-in-section label,
@@ -128,10 +130,16 @@
   background-color: #000000;
 }
 
-@media screen and (max-width: 500px) {
-  body {
-    overflow: visible;
+@media screen and (max-width: 1920px) and (min-width: 1800px) {
+  .form-section {
+    height: 38vh;
   }
+  .form-section.sign-up-form-section {
+    height: 48vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
   .login-page {
     padding: 15em 1em;
   }
