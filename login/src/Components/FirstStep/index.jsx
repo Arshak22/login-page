@@ -11,7 +11,7 @@ export default function FirstStep() {
   const steps = ['Step 1', 'Step 2', 'Step 3', 'Step 4'];
 
   useEffect(() => {
-    document.title = 'Step One';
+    document.title = 'First Step';
   }, []);
 
   return (

@@ -1,0 +1,205 @@
+.third-step {
+  padding-top: 13em;
+}
+
+.add-info-section h2 {
+  color: #000;
+  letter-spacing: 1px;
+}
+
+.add-qaxvacq-section {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  width: 60%;
+  background-color: #fff;
+  padding: 2em;
+  border-radius: 10px;
+  border: 4px solid #00ebff;
+}
+
+.grouped-inputs {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  margin-bottom: 0;
+}
+
+.bank-dropdown {
+  border: 3px solid #2bb9f7;
+  border-radius: 50px;
+  cursor: pointer;
+  padding: 5px 0;
+  width: 250px;
+  margin: 0;
+}
+
+.grouped-inputs select {
+  border: 3px solid #2bb9f7;
+  border-radius: 50px;
+  padding: 10px;
+  width: 250px;
+}
+
+.bank-dropdown-selected {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  margin: 0;
+  padding: 2px;
+}
+
+.bank-dropdown-selected span {
+  margin: 0;
+  margin-left: 15px;
+}
+
+.bank-dropdown-menu {
+  position: absolute;
+  width: 250px;
+  margin-top: 15px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.bank-dropdown-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.bank-selected-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.grouped-inputs label {
+  text-align: left;
+  width: 100%;
+}
+
+.bank-dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.bank-dropdown-item img {
+  width: 25px;
+  height: 25px;
+  margin: 0;
+}
+
+.bank-dropdown-item span {
+  margin: 0;
+}
+
+.bank-selected-item img {
+  width: 25px;
+  height: 25px;
+}
+
+.qaxvacq-input-section {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.small-input-section {
+  height: 325px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.input-col {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.upload-qaxvacq-btn {
+  width: 200px;
+  margin-top: 25px;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background-color: #00a9e4;
+  color: #fff;
+}
+
+.delete-row {
+  width: 100px;
+  margin-top: 25px;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background-color: #ba0000;
+  color: #fff;
+}
+
+.upload-button-success {
+  background-color: #38b200 !important;
+}
+
+.upload-qaxvacq-btn label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+
+.upload-qaxvacq-btn i {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.add-row-button {
+  position: absolute;
+  right: 25px;
+  top: 45px;
+  border: none;
+  padding: 2px 12px;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  font-size: 23px;
+}
+
+.send-qaxvacs {
+  width: 200px;
+  padding: 20px 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.send-qaxvacs:hover {
+  background-color: #00a9e4;
+}
+
+@media screen and (max-width: 500px) {
+  .add-qaxvacq-section {
+    width: 95%;
+  }
+  .grouped-inputs {
+    display: grid;
+  }
+}

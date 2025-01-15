@@ -25,7 +25,7 @@ export default function SecondStep() {
   const steps = ['Step 1', 'Step 2', 'Step 3', 'Step 4'];
 
   useEffect(() => {
-    document.title = 'Second One';
+    document.title = 'Second Step';
   }, []);
 
   const handleFileUpload = (e, filename) => {
